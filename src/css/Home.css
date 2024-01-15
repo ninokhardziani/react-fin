@@ -1,0 +1,56 @@
+/* src/components/Home.css */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, 0.0);
+  }  
+  .comment-container {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .main-content.dark {
+    color: #5a5ab4;
+  }
+  
+  .comment-container.dark {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #5a5ab4;
+  }
+  
+  .comment-container.light {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #1a1a1a;
+  }
+  .comment-container p {
+    margin: 0;
+  }
+  .comment-container.deleted {
+    display: none;
+  }
+  .action-buttons {
+    display: flex;
+    margin-top: 10px;
+  }
+  .like-button,
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .like-button.liked {
+    color: #ff69b4;
+  }
+  .delete-button {
+    color: #5a5ab4;
+  }
+  .delete-button:hover {
+    color: #ff0000;
+  }

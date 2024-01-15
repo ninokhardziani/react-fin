@@ -1,0 +1,60 @@
+
+/* src/App.css */
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url('./image/pexels-karolina-grabowska-4194853.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.App {
+  width: 80%; 
+  margin-right: auto; 
+}
+nav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center; 
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+.main-content {
+  width: 100%;
+  margin-left: 50px;
+  background-color: rgba(255, 255, 255, 0.0); 
+}
+.mode-toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px; 
+  margin-left: 10px; 
+  color: #5a5ab4 ; 
+  transition: color 0.3s ease;
+}
+
+.mode-toggle-button:hover {
+  color: #474794;
+}
+.main-content {
+  width: 100%;
+  margin-left: 50px;
+  background-color: rgba(255, 255, 255, 0.0); 
+}
+.dark {
+  color: #1a1a1a;
+  color: #fff;
+}
+
+.light {
+  color: #fff;
+  color: #000;
+}
